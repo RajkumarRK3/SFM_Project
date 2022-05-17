@@ -19,15 +19,15 @@ SFMS-6332
     TypeText          Verification Code     640201
     ClickText         Verify
     ClickText         Setup
-    SwitchWindow
+    SwitchWindow      New Setup Tab
     ClickText         Opens in a new tab
     TypeText          Quick Find        profiles
     ClickText         P
-    SwitchWindow
+    SwitchWindow      Selecting Profiles
     ClickText         Search...
     TypeText          Search...         00247488
     ClickText         00247488
-    VerifyField       SFM Support       partial_match=True
+    VerifyField       SFM Support       SFM Support Label     partial_match=True
     ClickText         Case Record Type
     ClickText         Edit Send Survey
     ClickCheckbox     Send Survey       on
@@ -35,7 +35,7 @@ SFMS-6332
     ClickText         Search...
     TypeText          Search...         00247203
     ClickText         00247203
-    VerifyField       CS Customer Success   partial_match=True
+    VerifyField       CS Customer Success   CS Customer Success   partial_match=True
     VerifyText        CS Customer Success
     ClickText         Edit Send Survey
     PickList          Send Survey       Yes
