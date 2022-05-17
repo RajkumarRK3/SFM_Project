@@ -7,7 +7,7 @@ Library    QWeb
 
 
 *** Test Cases ***
-
+ OpenBrowser       about:blank       chrome
 SFMS-6247
     [Documentation]   Test Case created using the QEditor
     OpenBrowser       about:blank       chrome
